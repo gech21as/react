@@ -1,0 +1,51 @@
+body{
+    background-color: aquamarine;
+
+}
+.card{
+    border: 1px solid hsl(0,0%, 80%);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    max-width: 250px;
+    display: inline-block;
+}
+.card .card-img{
+    border: 1px solid;
+    border-radius: 50%;
+}
+
+.card .card-name{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(82, 82, 100);
+}
+
+.card .card-description{
+    color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.button-increment{
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    background-color: aquamarine;
+    color: red;
+    padding: 10px 10px;
+    margin: 5px 10px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.button-write{
+    border: 10px solid white;
+    background-color: beige;
+    color: rgb(241, 0, 0);
+    padding: 2px 5px;
+    margin: 3px 6px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 20px;
+}
